@@ -13,10 +13,6 @@ jobs:
         go-version: ['1.22.x']
         include:
           - os: ubuntu-latest
-            arch: amd64
-            target_os: linux
-            target_arch: amd64
-          - os: ubuntu-latest
             arch: arm64
             target_os: linux
             target_arch: aarch64
